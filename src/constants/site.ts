@@ -6,19 +6,19 @@
 export const site = {
   name: "Dra. Eduarda De Souza",
   role: "Biomédica Esteta",
-  credential: "CRBM [placeholder]",
-  location: "[Cidade / Estado — placeholder]",
+  credential: "CRBM-5 7764",
+  location: "Joinville - Santa Catarina",
   instagram: {
     handle: "@dradudasouza",
     url: "https://www.instagram.com/dradudasouza/",
   },
   whatsapp: {
     // Formato internacional, sem símbolos. Ex.: 5541999999999
-    number: "5500000000000",
+    number: "5547991648791",
     message:
       "Olá, Dra. Eduarda! Vim pelo site e gostaria de saber mais sobre os atendimentos.",
   },
-  email: "contato@dradudasouza.com.br",
+  email: "dsouzae7@gmail.com",
 } as const;
 
 export const whatsappUrl = (() => {

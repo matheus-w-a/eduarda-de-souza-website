@@ -48,11 +48,10 @@ export function Footer() {
       </Container>
 
       <Container className="mt-10 flex flex-col gap-2 border-t border-terracotta-500/10 pt-6 text-xs text-ink-muted md:flex-row md:items-center md:justify-between">
-        <p>© {year} {site.name}. Todos os direitos reservados.</p>
         <p>
-          Atendimento com hora marcada. Resultados variam conforme cada
-          indivíduo.
+          © {year} {site.name}. Todos os direitos reservados.
         </p>
+        <p>Atendimento com hora marcada.</p>
       </Container>
     </footer>
   );

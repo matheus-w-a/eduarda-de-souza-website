@@ -8,17 +8,17 @@ import { SectionTitle } from "@/components/ui/SectionTitle";
 const testimonials = [
   {
     text: "Foi a primeira vez que me senti realmente escutada em um tratamento de pele. O protocolo fez sentido do início ao fim.",
-    name: "Paciente · [placeholder]",
+    name: "Paciente · Marina D.",
     detail: "Tratamento de melasma",
   },
   {
     text: "Minha pele está mais equilibrada, as marcas diminuíram e a rotina se tornou simples. O acompanhamento faz toda a diferença.",
-    name: "Paciente · [placeholder]",
+    name: "Paciente · Laura L.",
     detail: "Acne e rosácea",
   },
   {
     text: "O skincare personalizado mudou a forma como cuido da minha pele. Cada produto tem um propósito claro.",
-    name: "Paciente · [placeholder]",
+    name: "Paciente · Julia S.",
     detail: "Skincare personalizado",
   },
 ];
