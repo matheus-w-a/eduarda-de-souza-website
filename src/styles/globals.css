@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-sand-100 font-sans text-ink antialiased;
+    font-feature-settings: "ss01", "cv11";
+  }
+
+  ::selection {
+    @apply bg-terracotta-500/20 text-terracotta-700;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-terracotta-500;
+    font-feature-settings: "ss01";
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-terracotta-500/40 ring-offset-2 ring-offset-sand-100;
+  }
+}
+
+@layer components {
+  .section {
+    @apply py-20 md:py-28 lg:py-32;
+  }
+
+  .eyebrow {
+    @apply text-xs font-medium uppercase tracking-[0.25em] text-terracotta-500/80;
+  }
+
+  .prose-soft {
+    @apply text-base leading-relaxed text-ink-soft md:text-lg;
+  }
+
+  .divider {
+    @apply block h-px w-12 bg-terracotta-500/40;
+  }
+}

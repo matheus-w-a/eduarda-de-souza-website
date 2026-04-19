@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.env.*
+.git
+.github
+node_modules
+dist
+dist-ssr
+.vite
+npm-debug.log*
+compose*.yml
+DEPLOY.md
+README.md
