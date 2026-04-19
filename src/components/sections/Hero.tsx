@@ -72,19 +72,13 @@ export function Hero() {
 
         <div className="relative animate-fade-in">
           <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-[2rem] bg-sand-200 shadow-soft">
-            {/* Placeholder elegante — substituir por foto profissional da Dra. Eduarda */}
-            <div
-              className="absolute inset-0 bg-gradient-to-br from-sand-300 via-sand-200 to-terracotta-100"
-              aria-hidden="true"
+            <img
+              src="/eduarda-foto-1.webp"
+              alt="Dra. Eduarda De Souza, biomédica esteta"
+              className="absolute inset-0 h-full w-full object-cover"
+              loading="eager"
+              decoding="async"
             />
-            <div className="relative flex h-full flex-col items-center justify-end p-10 text-center">
-              <span className="font-display text-5xl italic text-terracotta-500/70">
-                ed
-              </span>
-              <p className="mt-6 text-xs uppercase tracking-[0.3em] text-terracotta-500/70">
-                [placeholder · foto profissional]
-              </p>
-            </div>
           </div>
 
           <div className="absolute -bottom-6 -left-6 hidden max-w-[15rem] rounded-2xl bg-sand-50 p-5 shadow-card md:block">
