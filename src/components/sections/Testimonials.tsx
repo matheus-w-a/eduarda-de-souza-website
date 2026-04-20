@@ -64,11 +64,6 @@ export function Testimonials() {
             </figure>
           ))}
         </div>
-
-        <p className="mt-10 text-center text-xs italic text-ink-muted">
-          * Depoimentos exibidos como exemplo. Substituir por relatos reais
-          mediante autorização das pacientes.
-        </p>
       </Container>
     </section>
   );
