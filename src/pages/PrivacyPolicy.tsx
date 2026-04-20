@@ -77,9 +77,10 @@ export function PrivacyPolicy() {
                 </li>
                 <li>
                   <strong>Dados do Google Agenda (Calendar):</strong> eventos,
-                  datas, horários, participantes, descrições e informações de
-                  disponibilidade, acessados exclusivamente com autorização
-                  prévia e explícita do usuário.
+                  datas, horários, títulos e descrições criados pela própria
+                  aplicação, acessados exclusivamente com autorização prévia e
+                  explícita do usuário. A aplicação não convida participantes
+                  nem lê dados de terceiros.
                 </li>
                 <li>
                   <strong>Dados de uso:</strong> registros técnicos de acesso

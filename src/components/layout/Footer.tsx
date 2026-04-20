@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { Container } from "@/components/ui/Container";
 import { nav, site } from "@/constants/site";
 
@@ -51,7 +52,16 @@ export function Footer() {
         <p>
           © {year} {site.name}. Todos os direitos reservados.
         </p>
-        <p>Atendimento com hora marcada.</p>
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+          <Link
+            to="/politica-de-privacidade"
+            className="transition-colors hover:text-terracotta-500"
+          >
+            Política de privacidade
+          </Link>
+          <span aria-hidden="true" className="hidden md:inline">·</span>
+          <p>Atendimento com hora marcada.</p>
+        </div>
       </Container>
     </footer>
   );
