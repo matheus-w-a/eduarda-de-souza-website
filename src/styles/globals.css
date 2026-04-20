@@ -38,11 +38,11 @@
 
 @layer components {
   .section {
-    @apply py-20 md:py-28 lg:py-32;
+    @apply pt-8 pb-20 md:py-28 lg:py-32;
   }
 
   .eyebrow {
-    @apply text-xs font-medium uppercase tracking-[0.25em] text-terracotta-500/80;
+    @apply text-[10px] font-medium uppercase tracking-[0.25em] text-terracotta-500/80 md:text-xs;
   }
 
   .prose-soft {
