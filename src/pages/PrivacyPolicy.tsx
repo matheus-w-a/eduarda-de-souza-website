@@ -76,11 +76,20 @@ export function PrivacyPolicy() {
                   2.0.
                 </li>
                 <li>
-                  <strong>Dados do Google Agenda (Calendar):</strong> eventos,
-                  datas, horários, títulos e descrições criados pela própria
-                  aplicação, acessados exclusivamente com autorização prévia e
-                  explícita do usuário. A aplicação não convida participantes
-                  nem lê dados de terceiros.
+                  <strong>Dados do Google Agenda (Calendar):</strong> datas,
+                  horários, títulos e descrições de eventos, acessados através
+                  do escopo{" "}
+                  <code className="rounded bg-sand-200 px-1.5 py-0.5 text-[0.9em]">
+                    calendar.events
+                  </code>
+                  . A aplicação lê eventos existentes na agenda da própria
+                  profissional apenas para detectar conflitos de horário ao
+                  marcar novos atendimentos, cria eventos referentes aos
+                  atendimentos agendados pelo sistema, e remove exclusivamente
+                  os eventos que ela mesma criou, em caso de cancelamento. A
+                  aplicação não convida participantes, não modifica eventos
+                  criados por terceiros e não acessa agendas de outros
+                  usuários.
                 </li>
                 <li>
                   <strong>Dados de uso:</strong> registros técnicos de acesso
@@ -99,9 +108,17 @@ export function PrivacyPolicy() {
                   Autenticar o usuário administrador no sistema.
                 </li>
                 <li>
-                  Consultar, criar, atualizar e remover eventos no Google
-                  Agenda, de forma a manter a sincronização entre a aplicação
-                  administrativa e a agenda da profissional.
+                  Consultar eventos existentes na agenda da profissional com o
+                  único propósito de detectar conflitos de horário antes de
+                  registrar novos atendimentos.
+                </li>
+                <li>
+                  Criar eventos correspondentes a atendimentos agendados no
+                  sistema administrativo, mantendo a agenda sincronizada.
+                </li>
+                <li>
+                  Remover, exclusivamente, eventos que foram criados pela
+                  própria aplicação, em caso de cancelamento do atendimento.
                 </li>
                 <li>
                   Garantir a integridade, segurança e correto funcionamento da
