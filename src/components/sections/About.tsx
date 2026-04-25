@@ -1,12 +1,6 @@
 import { Container } from "@/components/ui/Container";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 
-const highlights = [
-  "Biomedicina estética com foco em saúde da pele",
-  "Protocolos individualizados e baseados em evidências",
-  "Atendimento próximo, humano e discreto",
-];
-
 export function About() {
   return (
     <section id="sobre" className="section">
