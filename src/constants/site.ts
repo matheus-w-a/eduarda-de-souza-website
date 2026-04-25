@@ -29,7 +29,8 @@ export const whatsappUrl = (() => {
 
 export const nav = [
   { label: "Sobre mim", href: "#sobre" },
-  { label: "Tratamento", href: "#tratamento" },
+  { label: "Método", href: "#metodo" },
+  { label: "Tratamentos", href: "#tratamentos" },
   { label: "Diferenciais", href: "#diferenciais" },
   { label: "Contato", href: "#contato" },
 ] as const;

@@ -2,7 +2,8 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Hero } from "@/components/sections/Hero";
 import { About } from "@/components/sections/About";
-import { Treatment } from "@/components/sections/Treatment";
+import { Method } from "@/components/sections/Method";
+import { Treatments } from "@/components/sections/Treatments";
 import { Differentials } from "@/components/sections/Differentials";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { Contact } from "@/components/sections/Contact";
@@ -15,7 +16,8 @@ export function Home() {
       <main id="top" className="flex-1">
         <Hero />
         <About />
-        <Treatment />
+        <Method />
+        <Treatments />
         <Differentials />
         <Testimonials />
         <Contact />

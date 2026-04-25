@@ -28,12 +28,12 @@ const steps: Step[] = [
   },
 ];
 
-export function Treatment() {
+export function Method() {
   return (
-    <section id="tratamento" className="section bg-sand-50">
+    <section id="metodo" className="section bg-sand-50">
       <Container>
         <SectionTitle
-          eyebrow="Tratamento"
+          eyebrow="Meu método"
           title={
             <>
               Um cuidado completo,

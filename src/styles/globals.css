@@ -36,6 +36,16 @@
   }
 }
 
+@layer utilities {
+  .scrollbar-hide {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 @layer components {
   .section {
     @apply pt-8 pb-20 md:py-28 lg:py-32;

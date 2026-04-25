@@ -4,12 +4,12 @@ import { SectionTitle } from "@/components/ui/SectionTitle";
 export function About() {
   return (
     <section id="sobre" className="section">
-      <Container className="grid gap-14 lg:grid-cols-[1fr_1.1fr] lg:items-center">
-        <div className="relative order-2 lg:order-1">
+      <Container className="grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:items-center lg:gap-14">
+        <div className="relative lg:order-1">
           <div className="relative aspect-[4/5] w-full max-w-md overflow-hidden rounded-[2rem] bg-sand-200 shadow-card">
             <img
-              src="/eduarda-atendendo.webp"
-              alt="Dra. Eduarda De Souza durante atendimento clínico"
+              src="/eduarda-foto-1.webp"
+              alt="Dra. Eduarda De Souza, biomédica esteta"
               className="absolute inset-0 h-full w-full object-cover"
               loading="lazy"
               decoding="async"
@@ -21,7 +21,7 @@ export function About() {
           />
         </div>
 
-        <div className="order-1 lg:order-2">
+        <div className="lg:order-2">
           <SectionTitle
             eyebrow="Sobre mim"
             title={<>A liberdade de sentir-se bem na própria pele</>}

@@ -15,8 +15,8 @@ export function Hero() {
         className="pointer-events-none absolute -right-24 top-10 h-[28rem] w-[28rem] rounded-full bg-terracotta-100/40 blur-3xl md:top-0"
       />
 
-      <Container className="relative grid items-center gap-14 lg:grid-cols-[1.05fr_1fr]">
-        <div className="animate-fade-up">
+      <Container className="relative grid items-center gap-10 lg:grid-cols-[1.05fr_1fr] lg:gap-14">
+        <div className="order-2 animate-fade-up lg:order-1">
           <span className="eyebrow">Biomedicina Estética</span>
 
           <h1 className="mt-6 font-display text-4xl leading-[1.05] tracking-tightest text-terracotta-500 md:text-5xl lg:text-6xl">
@@ -42,8 +42,8 @@ export function Hero() {
               <WhatsAppIcon className="h-5 w-5" />
               Agendar avaliação
             </Button>
-            <Button as="a" href="#tratamento" variant="outline" size="lg">
-              Conhecer o tratamento
+            <Button as="a" href="#tratamentos" variant="outline" size="lg">
+              Conhecer os tratamentos
             </Button>
           </div>
 
@@ -57,11 +57,11 @@ export function Hero() {
           </dl>
         </div>
 
-        <div className="relative animate-fade-in">
+        <div className="relative order-1 animate-fade-in lg:order-2">
           <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-[2rem] bg-sand-200 shadow-soft">
             <img
-              src="/eduarda-foto-1.webp"
-              alt="Dra. Eduarda De Souza, biomédica esteta"
+              src="/eduarda-atendendo.webp"
+              alt="Dra. Eduarda De Souza durante atendimento clínico"
               className="absolute inset-0 h-full w-full object-cover"
               loading="eager"
               decoding="async"
