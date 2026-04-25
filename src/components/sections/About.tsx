@@ -29,28 +29,10 @@ export function About() {
 
         <div className="order-1 lg:order-2">
           <SectionTitle
-            eyebrow="Sobre a profissional"
-            title={
-              <>
-                Cuidado sensível,
-                <br />
-                <span className="italic">respaldo científico.</span>
-              </>
-            }
-            description="A Dra. Eduarda De Souza é biomédica esteta dedicada à saúde da pele feminina. Seu trabalho reúne conhecimento técnico e um olhar atento para cada história, criando tratamentos personalizados que priorizam segurança, naturalidade e resultados consistentes."
+            eyebrow="Sobre mim"
+            title={<>A liberdade de sentir-se bem na própria pele</>}
+            description="Sofri por muito tempo com acne e sei como é triste se ver refém da maquiagem e não se sentir bem na própria pele. Como biomédica esteta, dedico minha carreira a trazer essa mesma liberdade e confiança que consegui alcançar para quem sofre com acne e melasma, sem métodos agressivos e sem gastar horrores com cosméticos."
           />
-
-          <ul className="mt-10 space-y-4">
-            {highlights.map((item) => (
-              <li key={item} className="flex items-start gap-3 text-ink-soft">
-                <span
-                  aria-hidden="true"
-                  className="mt-2 h-[6px] w-[6px] shrink-0 rounded-full bg-terracotta-500"
-                />
-                <span className="text-base md:text-lg">{item}</span>
-              </li>
-            ))}
-          </ul>
         </div>
       </Container>
     </section>

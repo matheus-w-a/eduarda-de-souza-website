@@ -20,16 +20,15 @@ export function Hero() {
           <span className="eyebrow">Biomedicina Estética</span>
 
           <h1 className="mt-6 font-display text-4xl leading-[1.05] tracking-tightest text-terracotta-500 md:text-5xl lg:text-6xl">
-            Pele saudável,
-            <br />
-            equilibrada e com a sua
-            <span className="italic"> essência.</span>
+            Ter beleza é ter
+            <span className="italic"> saúde.</span>
           </h1>
 
           <p className="prose-soft mt-7 max-w-xl">
-            Cuidado dedicado à saúde da sua pele — tratamento de melasma, acne,
-            rosácea e skincare personalizado. Protocolos com base científica,
-            conduzidos com sensibilidade e respeito à sua história.
+            "Tratar a causa, e não somente o sintoma" é meu lema. Nossa pele é
+            um reflexo do equilíbrio do nosso corpo, e é com essa visão
+            integrativa que garantimos resultados não apenas momentâneos, mas
+            sim para uma vida toda!
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
@@ -43,28 +42,16 @@ export function Hero() {
               <WhatsAppIcon className="h-5 w-5" />
               Agendar avaliação
             </Button>
-            <Button as="a" href="#procedimentos" variant="outline" size="lg">
-              Conhecer procedimentos
+            <Button as="a" href="#tratamento" variant="outline" size="lg">
+              Conhecer o tratamento
             </Button>
           </div>
 
-          <dl className="mt-14 grid grid-cols-3 gap-6 border-t border-terracotta-500/15 pt-8 text-sm">
+          <dl className="mt-14 grid grid-cols-1 gap-6 border-t border-terracotta-500/15 pt-8 text-sm">
             <div>
               <dt className="eyebrow">Especialidade</dt>
               <dd className="mt-2 font-display text-xl text-terracotta-500">
-                Melasma
-              </dd>
-            </div>
-            <div>
-              <dt className="eyebrow">Abordagem</dt>
-              <dd className="mt-2 font-display text-xl text-terracotta-500">
-                Individual
-              </dd>
-            </div>
-            <div>
-              <dt className="eyebrow">Base</dt>
-              <dd className="mt-2 font-display text-xl text-terracotta-500">
-                Científica
+                Melasma & SkinCare
               </dd>
             </div>
           </dl>
