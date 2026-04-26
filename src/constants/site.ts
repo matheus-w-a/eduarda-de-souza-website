@@ -27,6 +27,12 @@ export const whatsappUrl = (() => {
   return `${base}?text=${text}`;
 })();
 
+export const buildWhatsappUrl = (message: string) => {
+  const base = `https://wa.me/${site.whatsapp.number}`;
+  const text = encodeURIComponent(message);
+  return `${base}?text=${text}`;
+};
+
 export const nav = [
   { label: "Sobre mim", href: "#sobre" },
   { label: "Método", href: "#metodo" },

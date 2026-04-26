@@ -1,23 +1,31 @@
 import { Container } from "@/components/ui/Container";
 import { SectionTitle } from "@/components/ui/SectionTitle";
+import { buildWhatsappUrl } from "@/constants/site";
 
 type Treatment = {
   name: string;
   focus: string;
+  message: string;
 };
 
 const treatments: Treatment[] = [
   {
     name: "Pele Lisinha",
     focus: "Acne e cravos",
+    message:
+      "Olá, Dra. Eduarda! Vim pelo site e gostaria de saber mais sobre o tratamento Pele Lisinha (acne e cravos).",
   },
   {
     name: "Pele Real",
     focus: "Melasma",
+    message:
+      "Olá, Dra. Eduarda! Vim pelo site e gostaria de saber mais sobre o tratamento Pele Real (melasma).",
   },
   {
     name: "Pele Iluminada",
     focus: "SkinCare",
+    message:
+      "Olá, Dra. Eduarda! Vim pelo site e gostaria de saber mais sobre o tratamento Pele Iluminada (skincare).",
   },
 ];
 
@@ -46,6 +54,15 @@ export function Treatments() {
               </h3>
 
               <span className="mt-auto h-px w-full bg-terracotta-500/15 transition-all duration-500 group-hover:bg-sand-50/30" />
+
+              <a
+                href={buildWhatsappUrl(treatment.message)}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="self-start font-display text-sm uppercase tracking-[0.2em] text-terracotta-500 underline decoration-terracotta-500/40 decoration-1 underline-offset-[6px] transition-colors duration-500 hover:decoration-terracotta-500 group-hover:text-sand-50 group-hover:decoration-sand-50/60 group-hover:hover:decoration-sand-50"
+              >
+                Saiba mais
+              </a>
             </li>
           ))}
         </ul>
