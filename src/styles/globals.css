@@ -17,6 +17,16 @@
   body {
     @apply bg-sand-100 font-sans text-ink antialiased;
     font-feature-settings: "ss01", "cv11";
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  input,
+  textarea {
+    -webkit-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
   }
 
   ::selection {
