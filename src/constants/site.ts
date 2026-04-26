@@ -19,6 +19,10 @@ export const site = {
       "Olá, Dra. Eduarda! Vim pelo site e gostaria de saber mais sobre os atendimentos.",
   },
   email: "dsouzae7@gmail.com",
+  google: {
+    profileUrl: "https://maps.app.goo.gl/9dw2FbH66tTAAUbeA",
+    rating: 5,
+  },
 } as const;
 
 export const whatsappUrl = (() => {
