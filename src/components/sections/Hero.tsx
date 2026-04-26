@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <section
       id="inicio"
-      className="relative overflow-hidden pb-20 pt-10 md:pb-28 md:pt-16 lg:pt-24"
+      className="relative overflow-hidden pb-4 pt-10 md:pb-28 md:pt-16 lg:pt-24"
     >
       {/* Sutileza visual: círculo suave de fundo */}
       <div
@@ -47,14 +47,7 @@ export function Hero() {
             </Button>
           </div>
 
-          <dl className="mt-14 grid grid-cols-1 gap-6 border-t border-terracotta-500/15 pt-8 text-sm">
-            <div>
-              <dt className="eyebrow">Especialidade</dt>
-              <dd className="mt-2 font-display text-xl text-terracotta-500">
-                Melasma & SkinCare
-              </dd>
-            </div>
-          </dl>
+          <dl className="mt-14 grid grid-cols-1 gap-6 border-t border-terracotta-500/15 pt-8 text-sm"></dl>
         </div>
 
         <div className="relative order-1 animate-fade-in lg:order-2">

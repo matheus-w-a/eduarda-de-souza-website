@@ -27,13 +27,7 @@ export function Treatments() {
       <Container>
         <SectionTitle
           eyebrow="Tratamentos"
-          title={
-            <>
-              Protocolos pensados
-              <br />
-              <span className="italic">para a sua pele.</span>
-            </>
-          }
+          title={<>Protocolos personalizados.</>}
           description="Cada tratamento é desenhado a partir da sua avaliação, com foco em resultados consistentes e duradouros."
         />
 
