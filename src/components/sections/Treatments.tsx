@@ -19,7 +19,7 @@ const treatments: Treatment[] = [
     name: "Pele Livre de Manchas",
     focus: "Melasma e Sardas",
     message:
-      "Olá, Dra. Eduarda! Vim pelo site e gostaria de saber mais sobre o tratamento Pele Real (melasma).",
+      "Olá, Dra. Eduarda! Vim pelo site e gostaria de saber mais sobre o tratamento Pele Livre de Manchas (melasma).",
   },
   {
     name: "Pele Iluminada",
