@@ -27,12 +27,12 @@ export function About() {
             title={<>A liberdade de sentir-se bem na própria pele</>}
             description="Sofri por muito tempo com acne e sei como é triste se ver refém da maquiagem e não se sentir bem na própria pele. Como biomédica esteta, dedico minha carreira a trazer essa mesma liberdade e confiança que consegui alcançar para quem sofre com acne e melasma, sem métodos agressivos e sem gastar horrores com cosméticos."
           />
-        </div>
-        <div>
-          <dt className="eyebrow">Especialidade</dt>
-          <dd className="mt-2 font-display text-xl text-terracotta-500">
-            Melasma & SkinCare
-          </dd>
+          <div className="mt-8">
+            <dt className="eyebrow">Especialidade</dt>
+            <dd className="mt-2 font-display text-xl text-terracotta-500">
+              Melasma & SkinCare
+            </dd>
+          </div>
         </div>
       </Container>
     </section>

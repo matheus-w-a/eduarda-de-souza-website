@@ -16,14 +16,14 @@ const treatments: Treatment[] = [
       "Olá, Dra. Eduarda! Vim pelo site e gostaria de saber mais sobre o tratamento Pele Lisinha (acne e cravos).",
   },
   {
-    name: "Pele Real",
-    focus: "Melasma",
+    name: "Pele Livre de Manchas",
+    focus: "Melasma e Sardas",
     message:
       "Olá, Dra. Eduarda! Vim pelo site e gostaria de saber mais sobre o tratamento Pele Real (melasma).",
   },
   {
     name: "Pele Iluminada",
-    focus: "SkinCare",
+    focus: "SkinCare Personalizado",
     message:
       "Olá, Dra. Eduarda! Vim pelo site e gostaria de saber mais sobre o tratamento Pele Iluminada (skincare).",
   },

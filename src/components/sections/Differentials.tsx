@@ -35,16 +35,7 @@ export function Differentials() {
   return (
     <section id="diferenciais" className="section">
       <Container>
-        <SectionTitle
-          eyebrow="Diferenciais"
-          title={
-            <>
-              Um cuidado que segue
-              <br />
-              <span className="italic">com você.</span>
-            </>
-          }
-        />
+        <SectionTitle eyebrow="" title="Diferenciais" />
 
         <div className="mt-14 grid gap-x-12 gap-y-10 md:mt-20 md:grid-cols-2">
           {items.map((item, i) => (
